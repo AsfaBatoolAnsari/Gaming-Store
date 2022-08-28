@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!----SWIPER CSS FILE---->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+</head>
+
+<body>
+
+    <!---CUSTOM SCROLL BAR---->
+
+    <div class="progress">
+        <div class="progress-bar" id="scroll-bar">
+
+        </div>
+    </div>
+
+    <!-------------HEADER------------->
+
+    <header>
+        <!---NAVBAR--->
+        <div class="nav container">
+            <!----LOGO---->
+            <a href="index.html" class="logo">Gaming<span>Store</span></a>
+            <!-----NAV ICONS----->
+            <div class="nav-icons">
+                <i class="fa-solid fa-bell" id="bell-icon"><span></span></i>
+                <i class="fa-solid fa-download"></i>
+                <div class="menu-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+
+            <!-----MENU---->
+            <div class="menu">
+                <img src="images/menu.png" alt="img">
+                <div class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#trending">Trending</a></li>
+                    <li><a href="#new">New Games</a></li>
+                    <li><a href="#action">Action Games</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </div>
+            </div>
+
+            <!----NOTIFICATION---->
+            <div class="notification">
+                <div class="notification-box">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <p>Congratulation, Your game download successfully.</p>
+                </div>
+                <div class="notification-box box-color">
+                    <i class="fa-solid fa-circle-xmark"></i>
+                    <p>Could not apply changes.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--------------HOME SECTION----------->
+    <section class="home container" id="home">
+        <img src="images/home.jpg" alt="img">
+        <div class="home-text">
+            <h1>ASSASSIN'S CREED <br> ODYSSEY</h1>
+            <a href="#" class="btn">Available Now </a>
+        </div>
+    </section>
+
+    <!-----------------TRENDING SECTION------------>
+
+    <section class="trending container" id="trending">
+        <div class="heading">
+            <i class="fa-solid fa-fire-flame-curved"></i>
+            <h2>Trending Games</h2>
+        </div>
+        <!----CONTENT----->
+        <div class="trending-content swiper">
+            <div class="swiper-wrapper">
+
+                <!-----SLIDE 1------>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/t1.jpg" alt="img">
+                        <div class="box-text">
+                            <h2>GTA V</h2>
+                            <h3>Action</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.7</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class="fa-solid fa-arrow-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-----SLIDE 2------>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/t2.jpg" alt="img">
+                        <div class="box-text">
+                            <h2>Call of Duty <br> Black Ops III</h2>
+                            <h3>Action</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.3</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class="fa-solid fa-arrow-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-----SLIDE 3------>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/t3.jpg" alt="img">
+                        <div class="box-text">
+                            <h2>Resident Evil Village</h2>
+                            <h3>Action</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.8</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class="fa-solid fa-arrow-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-----SLIDE 4------>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/t4.jpg" alt="img">
+                        <div class="box-text">
+                            <h2>Far Cry 5</h2>
+                            <h3>Action</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.5</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class="fa-solid fa-arrow-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-----SLIDE 5------>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/t5.jpg" alt="img">
+                        <div class="box-text">
+                            <h2>FIFA 22</h2>
+                            <h3>Sport</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.9</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class="fa-solid fa-arrow-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-----SLIDE 6------>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/t6.jpg" alt="img">
+                        <div class="box-text">
+                            <h2>Mortal Kombat 11</h2>
+                            <h3>Fighting</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.4</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class="fa-solid fa-arrow-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-----SLIDE 7------>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/t7.jpg" alt="img">
+                        <div class="box-text">
+                            <h2>Roblox</h2>
+                            <h3>FPS</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.4</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class="fa-solid fa-arrow-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-----SLIDE 8----->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/t8.jpg" alt="img">
+                        <div class="box-text">
+                            <h2>Apex Legends</h2>
+                            <h3>Battle</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.4</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class="fa-solid fa-arrow-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-------------------NEW SECTION---------------->
+
+    <section class="new container" id="new">
+        <div class="heading">
+            <i class="fa-solid fa-gamepad"></i>
+            <h2>New Games</h2>
+        </div>
+        <div class="new-content">
+            <!-----BOX 1----->
+            <div class="box-new">
+                <img src="images/new4.jpg" alt="img">
+                <div class="text-box">
+                    <h2>Tomb Rider</h2>
+                    <h3>Action</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <span>4.7</span>
+                        </div>
+                        <a href="download.html" class="box-btn"><i class="fa-solid fa-arrow-down"></i></a>
+                    </div>
+                </div>
+            </div>
+
+             <!-----BOX 2----->
+             <div class="box-new">
+                <img src="images/new2.jpg" alt="img">
+                <div class="text-box">
+                    <h2>Fortnite</h2>
+                    <h3>Action</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <span>4.5</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class="fa-solid fa-arrow-down"></i></a>
+                    </div>
+                </div>
+            </div>
+
+             <!-----BOX 3----->
+             <div class="box-new">
+                <img src="images/new3.jpg" alt="img">
+                <div class="text-box">
+                    <h2>Assassin's Creed II</h2>
+                    <h3>Action</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <span>9.2</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class="fa-solid fa-arrow-down"></i></a>
+                    </div>
+                </div>
+            </div>
+
+             <!-----BOX 4----->
+             <div class="box-new">
+                <img src="images/new6.jpg" alt="img">
+                <div class="text-box">
+                    <h2>SimCity</h2>
+                    <h3>City-Building</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <span>4.7</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class="fa-solid fa-arrow-down"></i></a>
+                    </div>
+                </div>
+            </div>
+
+             <!-----BOX 5----->
+             <div class="box-new">
+                <img src="images/new5.jpg" alt="img">
+                <div class="text-box">
+                    <h2>Watch Dogs</h2>
+                    <h3>Action</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <span>4.8</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class="fa-solid fa-arrow-down"></i></a>
+                    </div>
+                </div>
+            </div>
+
+             <!-----BOX 6----->
+             <div class="box-new">
+                <img src="images/new1.jpg" alt="img">
+                <div class="text-box">
+                    <h2>Red Dead Redemption 2</h2>
+                    <h3>Action</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <span>5.4</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class="fa-solid fa-arrow-down"></i></a>
+                    </div>
+                </div>
+            </div>
+
+             <!-----BOX 7----->
+             <div class="box-new">
+                <img src="images/new7.jpg" alt="img">
+                <div class="text-box">
+                    <h2>Counter-Strike <br> Source</h2>
+                    <h3>Action</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <span>10</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class="fa-solid fa-arrow-down"></i></a>
+                    </div>
+                </div>
+            </div>
+
+             <!-----BOX 8----->
+             <div class="box-new">
+                <img src="images/new8.jpg" alt="img">
+                <div class="text-box">
+                    <h2>PlayerUnknown's <br> Battlegrounds</h2>
+                    <h3>Action</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <span>4.1</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class="fa-solid fa-arrow-down"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-----NEXT PAGE----->
+
+        <div class="next-page">
+            <a href="#">Next Page</a>
+        </div>
+    </section>
+
+
+    <!--------CONTACT US-------->
+
+    <div class="contact" id="contact">
+        <h2>Contact <span>Us</span></h2>
+        <a href="https://www.facebook.com/people/Asfa-Batool-Ansari/100072782784417/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://github.com/AsfaBatoolAnsari"><i class="fa-brands fa-github"></i></a>
+        <a href="https://asfabatoolansari.github.io/Protfolio/"><i class="fas fa-briefcase"></i></a>
+        <a href="https://www.linkedin.com/in/asfa-batool-ansari-04582122a/"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+
+    <!--------COPYRIGHT---------->
+
+    <div class="copyright container">
+        <a href="#" class="logo">Gaming<span>Store</span></a>
+        <p>&#169; Asfa Batool All Right Reserved</p>
+    </div>
+
+
+
+
+
+    <!--------------LINK SWIPER FILE-------->
+
+    <script src="swiper-bundle.min.js"></script>
+
+
+    <!-----------LINK JAVA------------>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
